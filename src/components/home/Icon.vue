@@ -1,12 +1,12 @@
 <template>
   <div class="wrapper">
     <swiper :options="swiperOption">
-        <swiper-slide v-for="(page, index) of pages" :key="index">
-          <div class="icon-box" v-for="item of page" :key="item.id">
-            <img class="icon-img" :src="item.iconUrl">
-            <p class="icon-text">{{ item.iconText }}</p>
-          </div>
-        </swiper-slide>
+      <swiper-slide v-for="(page, index) of pages" :key="index">
+        <div class="icon-box" v-for="item of page" :key="item.id">
+          <img class="icon-img" :src="item.iconUrl">
+          <p class="icon-text">{{ item.iconText }}</p>
+        </div>
+      </swiper-slide>
       <div class="swiper-pagination"  slot="pagination"></div>
     </swiper>
   </div>
@@ -101,8 +101,8 @@ export default {
         height: 1.1rem
       .icon-text
         ellipse()
-        /*overflow: hidden*/
-        /*white-space: nowrap*/
-        /*text-overflow: ellipsis*/
+  /*overflow: hidden*/
+  /*white-space: nowrap*/
+  /*text-overflow: ellipsis*/
 
 </style>
