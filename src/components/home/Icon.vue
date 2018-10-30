@@ -15,6 +15,9 @@
 <script>
 export default {
   name: 'HomeIcon',
+  props: {
+    list: Array
+  },
   data () {
     return {
       swiperOption: {
@@ -101,8 +104,8 @@ export default {
         height: 1.1rem
       .icon-text
         ellipse()
-  /*overflow: hidden*/
-  /*white-space: nowrap*/
-  /*text-overflow: ellipsis*/
+        /*overflow: hidden*/
+        /*white-space: nowrap*/
+        /*text-overflow: ellipsis*/
 
 </style>

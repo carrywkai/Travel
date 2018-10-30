@@ -1,0 +1,93 @@
+{
+  "ret" : true,
+  "data": {
+    "city": "南京",
+    "imgList": [
+      {
+        "id": "001",
+        "imgUrl": "//img1.qunarzz.com/vc/c4/af/5c/7b5c474b2d55284477bcc775cc.png"
+      },
+      {
+        "id": "002",
+        "imgUrl": "//img1.qunarzz.com/vc/2f/8e/51/cb4d31b360c836f7d1bbe83c13.jpg"
+      },
+      {
+        "id": "003",
+        "imgUrl": "//img1.qunarzz.com/vc/a5/e0/64/c6bd8680fb67247db15df6057b.jpg"
+      }
+    ],
+    "iconList": [
+      {
+        "id": "0001",
+        "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "iconText": "旅游景点旅游景点旅游景点旅游景点"
+      },
+      {
+        "id": "0002",
+        "iconUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+        "iconText": "北京必游"
+      },
+      {
+        "id": "0003",
+        "iconUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+        "iconText": "一日游"
+      },
+      {
+        "id": "0004",
+        "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+        "iconText": "文化古迹"
+      },
+      {
+        "id": "0005",
+        "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+        "iconText": "动植物园"
+      },
+      {
+        "id": "0006",
+        "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png",
+        "iconText": "故宫"
+      },
+      {
+        "id": "0007",
+        "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png",
+        "iconText": "野生动物园"
+      },
+      {
+        "id": "0008",
+        "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
+        "iconText": "泡温泉"
+      },
+      {
+        "id": "0009",
+        "iconUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
+        "iconText": "全部玩乐"
+      }
+    ],
+    "recommendList": [
+      {
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg",
+        "title": "南京中山陵",
+        "text": "藏经楼又名孙中山纪念馆，位于中山陵与灵谷寺之间的茫茫林海中。此楼专为收藏孙中山的物品而建，是这位国父人生的缩影。"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg",
+        "title": "南京中山陵",
+        "text": "藏经楼又名孙中山纪念馆，位于中山陵与灵谷寺之间的茫茫林海中。此楼专为收藏孙中山的物品而建，是这位国父人生的缩影。"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg",
+        "title": "南京中山陵",
+        "text": "藏经楼又名孙中山纪念馆，位于中山陵与灵谷寺之间的茫茫林海中。此楼专为收藏孙中山的物品而建，是这位国父人生的缩影。"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201305/22/273c38aa938ad97dc8d65eac.jpg_200x200_1f49d1ec.jpg",
+        "title": "南京中山陵",
+        "text": "藏经楼又名孙中山纪念馆，位于中山陵与灵谷寺之间的茫茫林海中。此楼专为收藏孙中山的物品而建，是这位国父人生的缩影。"
+      }
+    ]
+  }
+}
