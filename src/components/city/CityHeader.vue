@@ -21,8 +21,8 @@ export default {
     background $travelColor
     color: #fff
     .icon-fanhui
-        position absolute
-        top 0
-        left: .1rem
-        color: #fff
+      position absolute
+      top 0
+      left: .1rem
+      color: #fff
 </style>
