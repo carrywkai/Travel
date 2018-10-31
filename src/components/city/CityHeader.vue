@@ -20,6 +20,7 @@ export default {
     text-align center
     background $travelColor
     color: #fff
+    z-index 10000
     .icon-fanhui
       position absolute
       top 0
