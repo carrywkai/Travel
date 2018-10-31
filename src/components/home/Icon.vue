@@ -105,7 +105,7 @@ export default {
       .icon-text
         ellipse()
         /*overflow: hidden*/
-        /*white-space: nowrap*/
-        /*text-overflow: ellipsis*/
+        /*white-space: nowrap  文本不换行，会在同一行显示，直到遇到<br>*/
+        /*text-overflow: ellipsis  溢出的文本内容以省略号的形式显示*/
 
 </style>

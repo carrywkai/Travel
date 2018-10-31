@@ -3,7 +3,7 @@
     <home-header :city="city"></home-header>
     <home-swiper :list="imgList"></home-swiper>
     <home-icon :list="iconList"></home-icon>
-    <home-recommend :list="recommendList"></home-recommend>
+    <home-recommend :list="recommendList"></home-recommend>s
   </div>
 </template>
 
@@ -12,7 +12,7 @@ import HomeHeader from './HomeHeader'
 import HomeSwiper from './Swiper'
 import HomeIcon from './Icon'
 import HomeRecommend from './HomeRecommend'
-import axiox from 'axios'
+import axios from 'axios'
 export default {
   name: 'Home',
   components: {
@@ -31,7 +31,7 @@ export default {
   },
   methods: {
     requestData () {
-      axiox.get('../../../static/index.json')
+      axios.get('../../../static/index.json')
         .then(res => {
           // console.log(res.data.data.city)
           res = res.data
