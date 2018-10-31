@@ -4,13 +4,20 @@
       <section class="area">
         <div class="area-city">当前城市</div>
         <ul class="now-city-box">
-          <li class="now-city">南京</li>
+          <li class="now-city">{{ this.$store.state.city }}</li>
         </ul>
       </section>
       <section class="area">
         <div class="area-city">热门城市</div>
         <ul class="hot-city-box">
-           <li class="hot-city" v-for="(item, index) of hotCity" :key="index">{{ item }}</li>
+           <li
+             class="hot-city"
+             v-for="(item, index) of hotCity"
+             :key="index"
+             @click="changeCityClick(item)"
+           >
+             {{ item }}
+           </li>
         </ul>
       </section>
       <section class="area">
@@ -22,49 +29,105 @@
       <section class="area">
         <div class="area-city">A</div>
         <ul class="classify-city-box">
-          <li class="classify-city" v-for="(item, index) in cityA" :key="index">{{ item }}</li>
+          <li
+            class="classify-city"
+            @click="changeCityClick(item)"
+            v-for="(item, index) in cityA"
+            :key="index"
+          >
+            {{ item }}
+          </li>
         </ul>
       </section>
       <section class="area">
         <div class="area-city">B</div>
         <ul class="classify-city-box">
-          <li class="classify-city" v-for="(item, index) in cityB" :key="index">{{ item }}</li>
+          <li
+            class="classify-city"
+            @click="changeCityClick(item)"
+            v-for="(item, index) in cityB"
+            :key="index"
+          >
+            {{ item }}
+          </li>
         </ul>
       </section>
       <section class="area">
         <div class="area-city">C</div>
         <ul class="classify-city-box">
-          <li class="classify-city" v-for="(item, index) in cityC" :key="index">{{ item }}</li>
+          <li
+            class="classify-city"
+            @click="changeCityClick(item)"
+            v-for="(item, index) in cityC"
+            :key="index"
+          >
+            {{ item }}
+          </li>
         </ul>
       </section>
       <section class="area">
         <div class="area-city">D</div>
         <ul class="classify-city-box">
-          <li class="classify-city" v-for="(item, index) in cityD" :key="index">{{ item }}</li>
+          <li
+            class="classify-city"
+            @click="changeCityClick(item)"
+            v-for="(item, index) in cityD"
+            :key="index"
+          >
+            {{ item }}
+          </li>
         </ul>
       </section>
       <section class="area">
         <div class="area-city">E</div>
         <ul class="classify-city-box">
-          <li class="classify-city" v-for="(item, index) in cityE" :key="index">{{ item }}</li>
+          <li
+            class="classify-city"
+            @click="changeCityClick(item)"
+            v-for="(item, index) in cityE"
+            :key="index"
+          >
+            {{ item }}
+          </li>
         </ul>
       </section>
       <section class="area">
         <div class="area-city">F</div>
         <ul class="classify-city-box">
-          <li class="classify-city" v-for="(item, index) in cityF" :key="index">{{ item }}</li>
+          <li
+            class="classify-city"
+            @click="changeCityClick(item)"
+            v-for="(item, index) in cityF"
+            :key="index"
+          >
+            {{ item }}
+          </li>
         </ul>
       </section>
       <section class="area">
         <div class="area-city">G</div>
         <ul class="classify-city-box">
-          <li class="classify-city" v-for="(item, index) in cityG" :key="index">{{ item }}</li>
+          <li
+            class="classify-city"
+            @click="changeCityClick(item)"
+            v-for="(item, index) in cityG"
+            :key="index"
+          >
+            {{ item }}
+          </li>
         </ul>
       </section>
       <section class="area">
         <div class="area-city">H</div>
         <ul class="classify-city-box">
-          <li class="classify-city" v-for="(item, index) in cityH" :key="index">{{ item }}</li>
+          <li
+            class="classify-city"
+            @click="changeCityClick(item)"
+            v-for="(item, index) in cityH"
+            :key="index"
+          >
+            {{ item }}
+          </li>
         </ul>
       </section>
     </div>
@@ -94,6 +157,13 @@ export default {
     handleLetterClick (e) {
       // console.log(e.target.innerHTML)
       this.letter = e.target.innerHTML
+    },
+    changeCityClick (city) {
+      // alert(city)
+      // 通过dispatch方法来先vuex传递参数
+      // this.$store.dispatch('changeCity', city)
+      this.$store.commit('changeCityMutation', city) // 不经过actions来改变，直接通过commit来改变
+      this.$router.push('/')
     }
   },
   watch: {
